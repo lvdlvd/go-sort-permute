@@ -1,4 +1,4 @@
-// Package permute provides a function, NextPermutation, that generates permutations of any collection that satisfies sort.Interface.
+// Package permute provides a function that generates permutations of any collection that satisfies sort.Interface.
 package permute
 
 import "sort"
@@ -11,7 +11,7 @@ import "sort"
 // The Art of Computer Programming, volume 4A.
 //
 // The test is on http://play.golang.org/p/ljft9xhOEn
-func NextPermutation(x sort.Interface) bool {
+func Next(x sort.Interface) bool {
 	n := x.Len() - 1
 	if n < 1 {
 		return false
