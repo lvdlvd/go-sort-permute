@@ -3,7 +3,7 @@ package permute
 
 import "sort"
 
-// NextPermutation generates the next permutation of the
+// Next generates the next permutation of the
 // sortable collection x in lexical order.  It returns false
 // if the permutations are exhausted.
 //
