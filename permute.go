@@ -10,7 +10,7 @@ import "sort"
 // Knuth, Donald (2011), "Section 7.2.1.2: Generating All Permutations",
 // The Art of Computer Programming, volume 4A.
 //
-// <iframe src="http://play.golang.org/p/ljft9xhOEn" frameborder="0" style="width: 100%; height: 100%"><a href="http://play.golang.org/p/ljft9xhOEn">see this code in play.golang.org</a></iframe>
+// The test is on http://play.golang.org/p/ljft9xhOEn
 func NextPermutation(x sort.Interface) bool {
 	n := x.Len() - 1
 	if n < 1 {
