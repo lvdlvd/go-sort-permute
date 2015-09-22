@@ -5,7 +5,8 @@ import "sort"
 
 // Next generates the next permutation of the
 // sortable collection x in lexical order.  It returns false
-// if the permutations are exhausted.
+// once the permutations are exhausted, which is when x is
+// in complete descending order.
 //
 // Knuth, Donald (2011), "Section 7.2.1.2: Generating All Permutations",
 // The Art of Computer Programming, volume 4A.
